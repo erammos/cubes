@@ -1,0 +1,34 @@
+/target
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Rust-specific
+/target/
+**/*.rs.bk
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Git-specific
+*.patch
+*.diff
+*.orig
+*.rej
+*.bak
+
+# Build artifacts
+/aurion/target/
+/src/target/
+
+# Cargo
+Cargo.lock
+
+# Debugging and profiling
+*.profraw

@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "aurion",  # Library folder
+]
+[package]
+name = "cubes"
+version = "0.1.0"
+edition = "2021"
+include = ["/assets"]
+
+[dependencies]
+aurion = { path = "aurion" }
